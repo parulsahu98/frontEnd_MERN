@@ -30,7 +30,7 @@ const DashboardPage = (props) => {
 
     axios
       .post(
-        "http://localhost:8000/chatroom",
+        "https://lotus-team.onrender.com/chatroom",
         {
           name: chatroomName,
         },
